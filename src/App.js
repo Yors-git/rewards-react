@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { ClientContextProvider } from './context/ClientProvider.jsx';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import ClientSearchForm from './components/client-search-component/client-search-form.component';
+import ClientCreateForm from './components/client-create-component/client-create.component';
+import ClientShow from './components/client-show/client-show.component';
+import 'bootstrap/dist/css/bootstrap.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+const App = () => {
+	return (
+		<ClientContextProvider>
+			<Container className='pt-3'>
+				<Row className='justify-content-center'>
+					<h1 className='pt-5'>Rewards App</h1>
+				</Row>
+				<Row className='justify-content-around'>
+					<ClientSearchForm />
+					<ClientCreateForm />
+				</Row>
+				<Row>
+					<ClientShow />
+				</Row>
+			</Container>
+		</ClientContextProvider>
+	);
+};
 
 export default App;
