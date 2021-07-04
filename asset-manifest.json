@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/rewards-react/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/rewards-react/static/js/main.ec761281.chunk.js",
+    "main.js.map": "/rewards-react/static/js/main.ec761281.chunk.js.map",
+    "runtime-main.js": "/rewards-react/static/js/runtime-main.57a34bef.js",
+    "runtime-main.js.map": "/rewards-react/static/js/runtime-main.57a34bef.js.map",
+    "static/css/2.da533ed9.chunk.css": "/rewards-react/static/css/2.da533ed9.chunk.css",
+    "static/js/2.8396496b.chunk.js": "/rewards-react/static/js/2.8396496b.chunk.js",
+    "static/js/2.8396496b.chunk.js.map": "/rewards-react/static/js/2.8396496b.chunk.js.map",
+    "static/js/3.77028142.chunk.js": "/rewards-react/static/js/3.77028142.chunk.js",
+    "static/js/3.77028142.chunk.js.map": "/rewards-react/static/js/3.77028142.chunk.js.map",
+    "index.html": "/rewards-react/index.html",
+    "static/css/2.da533ed9.chunk.css.map": "/rewards-react/static/css/2.da533ed9.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/rewards-react/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.8396496b.chunk.js.LICENSE.txt": "/rewards-react/static/js/2.8396496b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57a34bef.js",
+    "static/css/2.da533ed9.chunk.css",
+    "static/js/2.8396496b.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.ec761281.chunk.js"
+  ]
+}
